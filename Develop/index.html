@@ -13,6 +13,7 @@
     <!--Changed div to header because this element represents a container for introductory content and a set of navigational links-->    
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
+        <!--Changed div to nav because these links are a major block of navigation links used to navigate on the site page-->
             <ul>
                 <li> 
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -26,7 +27,11 @@
         </nav>
     </header>
 
-    <div class="hero"></div>
+    <!--Removed Div Class hero, and added in figure tag. Figure refrences self-contained content and if this image was removed it would not iterrupt the flow of the website. The image is now refrenced on the HTML document instead of a website URL. An Alt was added that describes that the Horiseon Marketing Team is at a Marketing Meeting.-->
+    <figure>
+        <img src="./assets/images/digital-marketing-meeting.jpg" alt="Horiseon Marketing Team at a Marketing Meeting" style ="height:800px;width:100%;">
+    </figure>
+
     <div class="content">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
