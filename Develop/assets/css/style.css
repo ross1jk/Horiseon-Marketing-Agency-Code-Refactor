@@ -188,14 +188,14 @@ figure {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/* changed footer class to just refrence footer to align with html chagnes, footer class for h2 tag, also changed*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
