@@ -55,22 +55,14 @@ figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center;
 }
+/* Added object-fit in cover, so the image was no longer distorted*/
 figure img {
     height: 800px;
     width: 100%;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
+    object-fit: cover;
 }
 
 /*Combined like styling for articles, article images, article headings. Moved styling elements no the CSS document to follow a logical sequence.*/
@@ -92,6 +84,16 @@ section article {
 section article img {
     max-height: 200px;
 }
+/* moved float left and float right classes be near section article img tag that they refrence*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 
 section article h2 {
     margin-bottom: 20px;
@@ -107,9 +109,11 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 /* combined each div class into one tag because the formatting is the same. All h3 div classes are now aside h3. All img div classes are now aside img */
-aside {
+
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -126,9 +130,9 @@ aside img {
 }
 
 /* added a CSS stying for each section inside the aside to provide padding. so the aside lines up more with the articles to the left*/
-aside section {
+/*aside section {
     padding: 13px; 
-}
+}*/
 
 /* changed footer class to just refrence footer to align with html chagnes, footer class for h2 tag, also changed*/
 footer {
