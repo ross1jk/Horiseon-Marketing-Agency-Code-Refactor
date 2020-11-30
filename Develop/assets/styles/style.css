@@ -66,14 +66,14 @@ figure img {
     object-fit: cover;
 }
 
-/*Combined like styling for articles, article images, article headings. Moved styling elements no the CSS document to follow a logical sequence. Moved float left and float right classes be near section article img tag that they refrence, and follow the structure of html document.*/
-section {
+/*Combined like styling for articles, article images, article headings. Moved styling elements so they follow a logical sequence. Moved float left and float right classes be near main article img tag that they refrence, and follow the structure of html document.*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section article {
+main article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,7 +82,7 @@ section article {
     color: #ffffff;
 }
 
-section article img {
+main article img {
     max-height: 200px;
 }
 
@@ -96,7 +96,7 @@ section article img {
     margin-left: 25px;
 }
 
-section article h2 {
+main article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
