@@ -52,7 +52,26 @@
   Changed div to footer as this section is at the bottom of the site page and contains both the authorship and copyright information.
 
 ## CSS Modifications
-Each CSS tag had to change to refrence the modfications taht were made on the index.html document. 
+  Each CSS tag had to change to refrence the modfications taht were made on the index.html document. 
+  
+  **header**
+  Changed to header from .header class so it would link with the html header. All CSS elements located within the header were also changed from the .header class to header 
+
+  **nav**
+  Changed from div to nav for the header css elements.
+
+  **figure**
+  Changed from .hero tag to figure tag to refrence the changed html. Also removed image link, the image is now referenced in the html document. Added a figure image tag, and within that made sure that object-fit was set to cover, so the image was no longer distorted
+
+  **main**
+  Combined like styling for articles, article images, article headings. Moved styling elements so they follow a logical sequence. Moved float left and float right classes be near main article img tag that they refrence, and follow the structure of html document.
+  
+  **aside**
+  Changed Div to aside and added color tag for the whole section because all font is the same color. Combined each div class into one tag because the formatting is the same. All h3 div classes are now aside h3. All img div classes are now aside img. All div classes that refrenced paragrpahs are now a p aside tag 
+
+  **footer**
+  Changed div footer class to be footer this allwos it to align with html chagnes, footer class for h2 tag, also changed
+  
 
 ## Mock-Up
 
