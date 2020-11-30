@@ -1,32 +1,36 @@
 # 01 HTML CSS Git: Code Refactor
 
-## Your Task
+## Description
 
-**Note**: Be sure to review the [Homework Guide](../04-Important/Homework-Guide/README.md) and the [Good README Guide](../04-Important/Good-README-Guide/README.md) before you start working on this assignment!
+  Horiseon Marketing Agency wants a code base that follows accessiblity stanards so that their ow nsite is optimized for serach engines. 
 
-This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
+  The existing code that Horiseon Marketing Agency had was refactored so that accessiblity standards were met. 
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+## HTML Modifications
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
+  Within the head of index.html the link to the css style sheet was modfied so that it followed the new relative path that was created. The title of the website was also modfied so to 'Horiseon Marketing Agnecy' so that when users have the page open on their screen, they can quickly identify and navigate to their site. 
 
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
+  Within the Body of the index.html, every div and div class on the webpage were renamed as semantic HTML elements. The following elements are incldued on the HTML docuemntation: header, nav, figure, main, article, aside, and footer. 
+  **header**
+    This element was renamed to header because it represents a container for introductory content and a set of navigational links. The header also contains the below modfied, nav. 
+  **nav**
+    This element was changed to navigation instead of div, because these links allow you to navigate the page. Each link in the navigation was tested and/or updated to ensure that onces selected they would bring you to the proper article that they refrenced. 
 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
+  **figure**
+    This element was changed to be a figure tag because a figure tag refrences self-contained content and if this image was removed it would not iterrupt the flow of the website. The image follows a relative path to the images folder, instead of a website URL to ensure it is always connected to the website. An Alt was added that describes that the Horiseon Marketing Team is at a Marketing Meeting. 
 
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+  **main**
+    Changed the overall section to main because this is the main porition of the webpage becuase it contains the main contnet. Inside the main content was the below modfied, article.
+  **article**
+   This was to be articles because changed each element is self contained and could stand apart from the other elements. Alt atributes were added to each figure to meet accessiblity standards. The realtive pathways for thee images were updated. 
+  
+  **aside**
+  Each div tag was chagned to be aside because this content is placed aside of the main content and is indirectly related.Alt atributes were added to each figure to meet accessiblity standards. The realtive pathways for thee images were updated. 
+  
+  **footer**
+  Changed div to footer as this section is at the bottom of the site page and contains both the authorship and copyright information.
 
-Are you ready to jump in? Here are this week's homework requirements:
-
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
+## CSS Modifications
 
 ```
 GIVEN a webpage meets accessibility standards
@@ -47,55 +51,3 @@ THEN I find a concise, descriptive title
 The following image shows the web application's appearance and functionality:
 
 ![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
