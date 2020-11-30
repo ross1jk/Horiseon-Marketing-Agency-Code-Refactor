@@ -2,12 +2,38 @@
 
 ## Description
 
-  Horiseon Marketing Agency wants a code base that follows accessiblity stanards so that their ow nsite is optimized for serach engines. 
+  Horiseon Marketing Agency wants a code base that follows accessiblity stanards so that their own site is optimized for serach engines. 
 
   The existing code that Horiseon Marketing Agency had was refactored so that accessiblity standards were met. 
 
+## Horiseon Marketing Agency - Deployed Applciation 
+
+https://ross1jk.github.io/Horiseon-Marketing-Agency-Code-Refactor/ 
+
+## Mock-Up
+
+The following image shows the web application's appearance and functionality:
+
+![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
+
+
+## Acceptance Critera for Horiseon Marketing Agency
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+
+**In order to meet the above Acceptance Critera, the following modfications were made:**
+
 ## Folder Modifications
-  To follow industry best practices within the week-1-homework repository the folder structure has been updated. 
+To follow industry best practices within the Horiseon-Marketing-Agency-Code-Refactor repository the folder structure has been updated.
 
   **index.html** 
   Stands on it own, outside of any folder.
@@ -72,9 +98,3 @@
   **footer**
   Changed div footer class to be footer this allwos it to align with html chagnes, footer class for h2 tag, also changed
   
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
