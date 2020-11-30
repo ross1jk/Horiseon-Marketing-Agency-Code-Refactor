@@ -60,6 +60,7 @@ To follow industry best practices within the Horiseon-Marketing-Agency-Code-Refa
   
   **header**
     This element was renamed to header because it represents a container for introductory content and a set of navigational links. The header also contains the below modfied, nav. 
+  
   **nav**
     This element was changed to navigation instead of div, because these links allow you to navigate the page. Each link in the navigation was tested and/or updated to ensure that onces selected they would bring you to the proper article that they refrenced. 
 
@@ -68,6 +69,7 @@ To follow industry best practices within the Horiseon-Marketing-Agency-Code-Refa
 
   **main**
     Changed the overall section to main because this is the main porition of the webpage becuase it contains the main contnet. Inside the main content was the below modfied, article.
+
   **article**
    This was to be articles because changed each element is self contained and could stand apart from the other elements. Alt atributes were added to each figure to meet accessiblity standards. The realtive pathways for thee images were updated. 
   
