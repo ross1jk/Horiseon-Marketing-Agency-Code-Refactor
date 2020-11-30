@@ -6,11 +6,32 @@
 
   The existing code that Horiseon Marketing Agency had was refactored so that accessiblity standards were met. 
 
+## Folder Modifications
+  To follow industry best practices within the week-1-homework repository the folder structure has been updated. 
+
+  **index.html** 
+  Stands on it own, outside of any folder.
+  
+  **README** 
+  Stands on it own, outside of any folder.
+  
+  **Images** 
+  This folder contains all of Horiseon Marketing Agency's images
+
+  **Style.css** 
+  This folder contains the style.css document. 
+
+  **Assets**
+  This folder contains the Mock-up image. 
+
 ## HTML Modifications
-
+  
+  **head**
   Within the head of index.html the link to the css style sheet was modfied so that it followed the new relative path that was created. The title of the website was also modfied so to 'Horiseon Marketing Agnecy' so that when users have the page open on their screen, they can quickly identify and navigate to their site. 
-
+  
+  **body**
   Within the Body of the index.html, every div and div class on the webpage were renamed as semantic HTML elements. The following elements are incldued on the HTML docuemntation: header, nav, figure, main, article, aside, and footer. 
+  
   **header**
     This element was renamed to header because it represents a container for introductory content and a set of navigational links. The header also contains the below modfied, nav. 
   **nav**
@@ -31,20 +52,7 @@
   Changed div to footer as this section is at the bottom of the site page and contains both the authorship and copyright information.
 
 ## CSS Modifications
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+Each CSS tag had to change to refrence the modfications taht were made on the index.html document. 
 
 ## Mock-Up
 
