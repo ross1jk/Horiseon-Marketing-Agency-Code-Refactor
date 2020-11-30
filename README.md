@@ -1,4 +1,4 @@
-# 01 HTML CSS Git: Code Refactor
+# Horiseon Marketing Agency - Code Refactor
 
 ## Description
 
