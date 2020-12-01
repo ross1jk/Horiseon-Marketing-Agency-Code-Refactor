@@ -6,7 +6,7 @@
 
   The existing code that Horiseon Marketing Agency had was refactored so that accessiblity standards were met. 
 
-## Horiseon Marketing Agency - Deployed Applciation 
+## Horiseon Marketing Agency - Deployed Application 
 
 https://ross1jk.github.io/Horiseon-Marketing-Agency-Code-Refactor/ 
 
