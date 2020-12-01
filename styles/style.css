@@ -24,6 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
 /* changed from div to nav for below header css elements */
 header nav {
     padding-top: 15px;
@@ -50,8 +51,8 @@ a {
 p {
     font-size: 16px;
 }
-/* Changed from .hero tag to figure tag to refrence the changed html. Also removed image link, the image is now referenced in the html document. Added object-fit in cover, so the image was no longer distorted*/
 
+/* Changed from .hero tag to figure tag to refrence the changed html. Also removed image link, the image is now referenced in the html document. Added object-fit in cover, so the image was no longer distorted*/
 figure {
     height: 800px;
     width: 100%;
@@ -100,8 +101,8 @@ main article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Changed Div to aside and added color tag for the whole section because all font is the same color. Combined each div class into one tag because the formatting is the same. All h3 div classes are now aside h3. All img div classes are now aside img. All div classes that refrenced paragrpahs are now a p aside tag */
 
+/* Changed Div to aside and added color tag for the whole section because all font is the same color. Combined each div class into one tag because the formatting is the same. All h3 div classes are now aside h3. All img div classes are now aside img. All div classes that refrenced paragrpahs are now a p aside tag */
 aside {
     margin-right: 20px;
     padding: 20px;
